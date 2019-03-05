@@ -1,0 +1,29 @@
+<template>
+  <view>
+    <text>count:</text>
+    <text class="count">{{count}}</text>
+    <button bindtap="onClickAdd">Add</button>
+  </view>
+</template>
+
+<script>
+Page({
+  data: {
+    count: 0
+  },
+  onClickAdd () {
+    this.setData({
+      count: this.data.count + 1
+    })
+  }
+})
+</script>
+
+<style>
+.count {
+  color: red;
+  font-weight: bold;
+}
+</style>
+
+

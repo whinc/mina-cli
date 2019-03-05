@@ -1,0 +1,23 @@
+<config>
+{
+  "pages": [
+    "pages/home"
+  ]
+}
+</config>
+
+<script>
+App({
+  onLaunch () {
+    console.log('onLaunch')
+  }
+})
+</script>
+
+
+<style scoped lang="scss">
+.page {
+  width: 100%;
+  height: 100%;
+}
+</style>

@@ -2,9 +2,9 @@
   "name": "mina-cli",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "node ./lib/index.js"
+    "logs": "pm2 logs --err --lines 30"
   },
   "author": "",
   "license": "MIT",
