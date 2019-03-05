@@ -1,8 +1,11 @@
 {
-  "name": "mina-cli",
+  "name": "@whinc/mina-cli",
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
+  "bin": {
+    "mina": "bin/mina.js"
+  },
   "scripts": {
     "logs": "pm2 logs --err --lines 30"
   },
