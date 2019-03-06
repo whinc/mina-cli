@@ -29,8 +29,19 @@ mina-cli 是小程序原生开发脚手架。
 ## 特性
 
 - [x] 支持单文件开发及热加载
-- [ ] 支持预处理器，如 typescript/sass 等
+- [ ] 支持预处理器，如 sass/less 等
 - [ ] 支持 npm 管理依赖
+
+预处理器支持情况
+
+|syntax|lang|
+|---|---|---|
+|`<template>`|`html`|
+|`<style>`|`css`|
+|`<style lang="scss">`|`scss`|
+|`<style lang="sass">`|`sass`|
+|`<style lang="less">`|`less`|
+|`<script>`|`js`|
 
 ## 配置语法高亮
 
