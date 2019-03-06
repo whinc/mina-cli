@@ -6,6 +6,12 @@
   </view>
 </template>
 
+<config>
+{
+  "navigationBarTitleText": "首页"
+}
+</config>
+
 <script>
 Page({
   data: {

@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "del": "^4.0.0",
+    "globby": "^9.1.0",
     "gulp": "^4.0.0",
     "gulp-util": "^3.0.8"
   }
