@@ -16,8 +16,9 @@ App({
 
 
 <style scoped lang="scss">
+$width: 50%;
 .page {
-  width: 100%;
+  width: $width;
   height: 100%;
 }
 </style>

@@ -33,3 +33,17 @@ Page({
 </style>
 
 
+<style lang="scss">
+$color: blue;
+.count_scss {
+  color: $color;
+}
+</style>
+
+<style lang="less">
+@color: yellow;
+
+.count_less {
+  color: @color;
+}
+</style>
