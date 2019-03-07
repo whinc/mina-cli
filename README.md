@@ -52,6 +52,13 @@ mina-cli 是小程序原生开发脚手架。
 ```json
   "files.associations": {
     "*.mina": "vue",
+    // 微信小程序需要
+    "*.wxs": "javascript",
+    "*.wxss": "css",
+    "*.wxml": "html",
+    // 支付宝小程序需要
+    "*.acss": "css",
+    "*.axml": "html",
   },
   "vetur.grammar.customBlocks": {
     "config": "json"
