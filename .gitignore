@@ -1,5 +1,6 @@
 # mina-cli
 example/dist/
+.vscode
 
 # mac
 .DS_Store

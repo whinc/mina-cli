@@ -1,6 +1,6 @@
 <template>
   <view>
-    <text>count:</text>
+    <text>王云吴辉 count:</text>
     <text class="count">{{count}}</text>
     <button bindtap="onClickAdd">Add</button>
   </view>

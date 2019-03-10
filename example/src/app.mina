@@ -9,7 +9,7 @@
 <script>
 App({
   onLaunch () {
-    console.log('onLaunch')
+    console.log('onLaunch ')
   }
 })
 </script>

@@ -2,7 +2,7 @@
   "name": "@whinc/mina-cli",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/index.js",
+  "main": "lib/gulpfile.js",
   "bin": {
     "mina": "bin/mina.js"
   },
@@ -23,6 +23,11 @@
     "gulp-if": "^2.0.2",
     "gulp-util": "^3.0.8",
     "less": "^3.9.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "yargs": "^13.2.2"
+  },
+  "mina": {
+    "src": "example/src",
+    "dest": "example/dist"
   }
 }
