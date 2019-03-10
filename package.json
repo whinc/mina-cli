@@ -9,16 +9,17 @@
   "scripts": {
     "logs": "pm2 logs --err --lines 30",
     "release:preview": "standard-version --dry-run",
-    "release:patch": "standard-version --release-as patch"
+    "release": "standard-version",
+    "publish:npm": "npm login && npm publish --access=public"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@vue/component-compiler-utils": "^2.6.0",
-    "standard-version": "^5.0.1",
-    "vue-template-compiler": "^2.6.8"
+    "standard-version": "^5.0.1"
   },
   "dependencies": {
+    "vue-template-compiler": "^2.6.8",
+    "@vue/component-compiler-utils": "^2.6.0",
     "del": "^4.0.0",
     "globby": "^9.1.0",
     "gulp": "^4.0.0",
