@@ -8,15 +8,14 @@ const {updateConfig, clean, compileAll, watchAll, test} = require('..')
 
 const argv = yargs
   .usage('Usage: $0 <command> [options...]')
-  .config()
-  .pkgConf('mina')
+  .pkgConf("mina")
   .command('clean', 'clean output directory',
     yargs => yargs.options({
       'dest': {
         demandOption: true,
         describe: 'The directory will be clean'
       }
-    }).version(false).help(false),
+    }),
     argv => {
       gulp.series(updateConfig({
         dstDir: argv.dest
@@ -31,7 +30,7 @@ const argv = yargs
       },
       'dest': {
         type: 'string',
-        demandOption: true,
+        default: './dist',
         describe: 'output directory'
       },
       'include': {
@@ -55,7 +54,7 @@ const argv = yargs
         type: 'boolean',
         describe: 're-compile when any file in the src directory changed'
       }
-    }).version(false).help(false),
+    }),
     argv => {
       const config = {
         srcDir: path.resolve(process.cwd(), argv.src),
