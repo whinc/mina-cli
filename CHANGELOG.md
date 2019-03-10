@@ -4,11 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 # [0.1.0](https://github.com/whinc/mina-cli/compare/v0.2.0...v0.1.0) (2019-03-10)
 
-
-
-# 0.1.0 (2019-03-10)
-
-
 ### Features
 
 * init project ([9dc7c25](https://github.com/whinc/mina-cli/commit/9dc7c25))

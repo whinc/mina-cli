@@ -8,7 +8,8 @@
   },
   "scripts": {
     "logs": "pm2 logs --err --lines 30",
-    "release": "standard-version"
+    "release:preview": "standard-version --dry-run",
+    "release:patch": "standard-version --release-as patch"
   },
   "author": "",
   "license": "MIT",
