@@ -106,3 +106,7 @@ mina
   }
 ```
 4. 运行命令 "Reload Window"
+
+## 更新日志
+
+[CHANGELOG](CHANGELOG.md)
