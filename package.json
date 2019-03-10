@@ -15,7 +15,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "conventional-changelog-cli": "^2.0.12"
+    "conventional-changelog-cli": "^2.0.12",
+    "dayjs": "^1.8.9"
   },
   "dependencies": {
     "vue-template-compiler": "^2.6.8",
