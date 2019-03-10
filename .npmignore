@@ -1,5 +1,5 @@
-*
-*/
-!lib/**/*
-!LICENSE
-!package.json
+.vscode/
+example/
+node_modules/
+ecosystem.config.js
+mina.config.json
