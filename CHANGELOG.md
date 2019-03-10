@@ -1,3 +1,7 @@
+## [0.1.3](https://github.com/whinc/mina-cli/compare/v0.1.2...v0.1.3) (2019-03-10)
+
+
+
 ## [0.1.2](https://github.com/whinc/mina-cli/compare/v0.1.1...v0.1.2) (2019-03-10)
 
 
