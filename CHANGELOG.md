@@ -1,3 +1,12 @@
+## [0.1.1](https://github.com/whinc/mina-cli/compare/v0.1.0...v0.1.1) (2019-03-10)
+
+
+### Bug Fixes
+
+* 依赖缺失 ([4df3522](https://github.com/whinc/mina-cli/commit/4df3522))
+
+
+
 # [0.1.0](https://github.com/whinc/mina-cli/compare/9dc7c25...v0.1.0) (2019-03-10)
 
 
