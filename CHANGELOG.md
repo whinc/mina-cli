@@ -1,8 +1,5 @@
-# Change Log
+# [0.1.0](https://github.com/whinc/mina-cli/compare/9dc7c25...v0.1.0) (2019-03-10)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-# [0.1.0](https://github.com/whinc/mina-cli/compare/v0.2.0...v0.1.0) (2019-03-10)
 
 ### Features
 
@@ -12,3 +9,6 @@ All notable changes to this project will be documented in this file. See [standa
 * 增加命令行接口 ([db84613](https://github.com/whinc/mina-cli/commit/db84613))
 * 支持sass/less预处理样式 ([5038852](https://github.com/whinc/mina-cli/commit/5038852))
 * 支持编译watch ([3eb5a96](https://github.com/whinc/mina-cli/commit/3eb5a96))
+
+
+

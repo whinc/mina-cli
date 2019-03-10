@@ -8,14 +8,14 @@
   },
   "scripts": {
     "logs": "pm2 logs --err --lines 30",
-    "release:preview": "standard-version --dry-run",
-    "release": "standard-version",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 ",
+    "version": "npm run changelog && git commit -m 'chore(release): $npm_package_version' CHANGELOG.md",
     "publish:npm": "npm login && npm publish --access=public"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "standard-version": "^5.0.1"
+    "conventional-changelog-cli": "^2.0.12"
   },
   "dependencies": {
     "vue-template-compiler": "^2.6.8",
