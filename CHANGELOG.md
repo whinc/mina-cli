@@ -1,3 +1,13 @@
+## [0.1.4](https://github.com/whinc/mina-cli/compare/v0.1.3...v0.1.4) (2019-03-11)
+
+
+### Bug Fixes
+
+* fix: 修复单文件块缺失时生成文件报错的问题 ([bc88a49](https://github.com/whinc/mina-cli/commit/bc88a49))
+* 修复单文件块缺失时生成文件报错的问题 ([ebecc97](https://github.com/whinc/mina-cli/commit/ebecc97))
+
+
+
 ## [0.1.3](https://github.com/whinc/mina-cli/compare/v0.1.2...v0.1.3) (2019-03-10)
 
 
