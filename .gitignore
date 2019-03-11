@@ -1,7 +1,6 @@
 # mina-cli
 example/dist/
 .vscode
-set_env.sh
 
 # mac
 .DS_Store
