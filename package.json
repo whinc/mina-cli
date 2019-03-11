@@ -44,7 +44,7 @@
     "url": "https://github.com/whinc/mina-cli.git"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "release": {
     "ci": false,
