@@ -4,7 +4,7 @@
 const yargs = require('yargs')
 const gulp = require('gulp')
 const path = require('path')
-const {updateConfig, clean, compileAll, watchAll, test} = require('..')
+const {updateConfig, clean, compileAll, watchAll} = require('..')
 
 const argv = yargs
   .usage('Usage: $0 <command> [options...]')
