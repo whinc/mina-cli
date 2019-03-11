@@ -10,13 +10,17 @@
     "logs": "pm2 logs --err --lines 30",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 ",
     "version": "npm run changelog && git commit -m \"chore(release): $npm_package_version\" CHANGELOG.md",
-    "publish:npm": "npm login && npm publish --access=public"
+    "publish:npm": "npm login && npm publish --access=public",
+    "semantic-release": "cross-env GH_TOKEN=$(cat GH_TOKEN) NPM_TOKEN=$(cat NPM_TOKEN) semantic-release"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "conventional-changelog-cli": "^2.0.12",
-    "dayjs": "^1.8.9"
+    "cross-env": "^5.2.0",
+    "dayjs": "^1.8.9",
+    "semantic-release": "^15.13.3",
+    "semantic-release-cli": "^4.1.1"
   },
   "dependencies": {
     "vue-template-compiler": "^2.6.8",
@@ -34,5 +38,16 @@
   "mina": {
     "src": "example/src",
     "dest": "example/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whinc/mina-cli.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "release": {
+    "ci": false,
+    "plugins": ["@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator", "@semantic-release/npm"]
   }
 }

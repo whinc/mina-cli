@@ -7,10 +7,10 @@
 </config>
 
 <script>
-// import dayjs from 'dayjs'
+import dayjs from 'dayjs'
 App({
   onLaunch () {
-    // console.log('onLaunch:', dayjs().format('{YYYY} MM-DDTHH:mm:ss SSS [Z] A'))
+    console.log('onLaunch:', dayjs().format('{YYYY} MM-DDTHH:mm:ss SSS [Z] A'))
   }
 })
 </script>
