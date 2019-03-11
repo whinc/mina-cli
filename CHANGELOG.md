@@ -1,3 +1,12 @@
+## [0.1.6](https://github.com/whinc/mina-cli/compare/v0.1.5...v0.1.6) (2019-03-11)
+
+
+### Bug Fixes
+
+* 修复测试用例 ([c59f0fc](https://github.com/whinc/mina-cli/commit/c59f0fc))
+
+
+
 ## [0.1.5](https://github.com/whinc/mina-cli/compare/v0.1.4...v0.1.5) (2019-03-11)
 
 
