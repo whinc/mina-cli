@@ -35,7 +35,7 @@ mina-cli 是小程序原生开发脚手架。
 预处理器支持情况
 
 |syntax|lang|
-|---|---|---|
+|---|---|
 |`<template>`|`html`|
 |`<style>`|`css`|
 |`<style lang="scss">`|`scss`|
